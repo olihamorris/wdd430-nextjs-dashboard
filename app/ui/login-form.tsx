@@ -9,7 +9,7 @@ import {
 
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 
-import { Button } from '@/app/ui/invoices/buttons';
+import { Button } from '@/app/ui/invoices/button';
 
 import { useActionState } from 'react';
 
