@@ -9,6 +9,13 @@ import {
   fetchCardData,
 } from '@/app/lib/data';
 
+
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
+
 export default async function Page() {
   const revenue = await fetchRevenue();
 
